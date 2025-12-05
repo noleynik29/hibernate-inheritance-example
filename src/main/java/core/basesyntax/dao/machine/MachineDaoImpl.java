@@ -2,10 +2,10 @@ package core.basesyntax.dao.machine;
 
 import core.basesyntax.dao.AbstractDao;
 import core.basesyntax.model.machine.Machine;
+import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import java.util.List;
 
 public class MachineDaoImpl extends AbstractDao implements MachineDao {
     public MachineDaoImpl(SessionFactory sessionFactory) {
